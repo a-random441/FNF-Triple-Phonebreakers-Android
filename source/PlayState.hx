@@ -403,7 +403,7 @@ class PlayState extends MusicBeatState
 			{
 				defaultCamZoom = 0.85;
 				curStage = 'redsky';
-				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('redsky'));
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('revenge'));
 				bg.antialiasing = true;
 				bg.scrollFactor.set(0.6, 0.6);
 				bg.active = true;
