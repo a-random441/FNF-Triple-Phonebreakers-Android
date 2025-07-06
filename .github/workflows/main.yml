@@ -33,7 +33,7 @@ jobs:
           java-version: 11
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android@v2
+        uses: android-actions/setup-android@v2.0.2
 
       - name: Setup Haxe
         uses: krdlab/setup-haxe@v1.1.5
